@@ -45,11 +45,17 @@ span{
 }
 .secondbg{
     background-image: url(./Images/biography-bg.png);
-    background-repeat: none;
+    background-repeat: no-repeat;
     height: 100vh;
 }
-.experience{
+.exsec{
     margin: 10%;
+}
+.experience{
+    background-image: url(./Images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+
 }
 h2{
     text-align: center;
@@ -60,11 +66,12 @@ h2{
     float: left;
     width: 30%;
     margin: 1.5%;
-    margin-bottom: 20vh;
+    
 }
 .client{
+
     margin: 15%;
-    
+    margin-top: 0%; 
     text-align: center;
 }
 h3{
